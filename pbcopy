@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ -e /usr/bin/pbcopy ]; then
+    /usr/bin/pbcopy
+else
+    printf '\e]52;c;%s\x07' "$(base64 -)"
+fi
