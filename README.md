@@ -40,6 +40,7 @@ Doesn't work inside neovim's terminal emulator (#3) or containers (#4)
   (fork of skaji/remote-pbcopy-iterm2, works in neovim's terminal emulator)
 - [osc52.sh](https://chromium.googlesource.com/apps/libapps/+/master/hterm/etc/osc52.sh)
   (shell script for chromium OS)
+- `xclip -selection clipboard` (X11/Linux only, requires 5MB of dependencies)
 
 ## References
 
